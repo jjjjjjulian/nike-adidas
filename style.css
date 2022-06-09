@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fuente1;
+    src: url(font/CaviarDreams_Bold.ttf);
+}
+
+    .titulos{
+        font-size: 50px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #fff;
+        
+    }
+    .campos label{
+        display: block;
+        width: 80%;
+        font-weight: bold;
+}
+
+.campos input{
+    margin-bottom: 25px;
+    width: 80%;
+    border: 1px solid rgb(134, 138, 134);
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+body{
+    font-family: fuente1;
+    background-image:url(images/fondo2.jpg);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+h2,h3,h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*estilos hoja contacto*/
+
+form{
+    width: 40%;
+    border: 4px dashed rgb(55, 170, 205);
+    margin: 25px auto;
+    background-color: rgba(64, 51, 240, 0.2);
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+
+
+input[type="submit"], input[type="reset"]{
+    
+    margin-bottom: 0;
+    background-color: #0a0a0a;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: rgb(189, 229, 248);
+    color: rgb(20, 19, 19);
+    font-size: 22px;
+    text-align: center;
+}
+body{
+    background-image: url(images/logo1.jpg);
+}
+.subtitulo{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.card-text{
+    color: rgb(9, 9, 9);
+}
+.imagen{
+    align-items: center;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+
+   
+
+  
+ 
+ 
+
+
+
+    
